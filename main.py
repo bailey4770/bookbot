@@ -1,1 +1,1 @@
-print("greetings bots")
+print("greetings boots")
