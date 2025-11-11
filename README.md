@@ -1,2 +1,3 @@
 # bookbot
-cli bootbot written in python following the boot.dev tutorial
+
+BookBot is my first [Boot.dev](https://www.boot.dev) project!
