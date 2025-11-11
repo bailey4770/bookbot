@@ -1,4 +1,4 @@
-from stats import get_num_words
+import stats
 
 
 def get_book_text(filepath: str):
@@ -10,8 +10,9 @@ def get_book_text(filepath: str):
 def main():
     frank_path = "books/frankenstein.txt"
     frankenstein_text = get_book_text(frank_path)
-    num_words = get_num_words(frankenstein_text)  # Print the first 500 characters
+    num_words = stats.get_num_words(frankenstein_text)  # Print the first 500 characters
     print(f"Found {num_words} total words")
+    print(stats.count_unique_chars(frankenstein_text))
 
 
 if __name__ == "__main__":
