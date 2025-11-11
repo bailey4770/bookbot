@@ -14,3 +14,7 @@ def count_unique_chars(text: str):
         unique_chars[char.lower()] += 1
 
     return unique_chars
+
+
+def sort_dict(d: MutableMapping[str, int]):
+    return sorted(d.items(), reverse=True, key=lambda item: item[1])
